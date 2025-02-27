@@ -1,2 +1,2 @@
 # Portfolio
-Janani Janarthanan's ortfolio 
+Janani Janarthanan's portfolio 
