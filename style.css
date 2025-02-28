@@ -1,0 +1,99 @@
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+    
+  }
+  
+  h1 {
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 4.5em;
+    color:#353773;
+    font-family: Impact, sans-serif;
+    
+  }
+
+
+  .img-container {
+    width: 100%;
+  }
+  
+img {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    border: 1px solid #353773;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    color: #353773;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+  }
+
+  p {
+    position:static; bottom: ;
+    text-decoration: underline; 
+    color:#353773;
+    margin: auto;
+    font-size: 1.0em;
+    color: rgb(129, 124, 124);
+  }
+  
+  h3{
+    position:static; bottom: ;
+    text-indent: 1pc;
+    margin: auto;
+    flex-direction:row;
+    font-size: 1.0em;
+    color: rgb(129, 124, 124);
+  }
+
+
+/*desktop*/
+#content {
+    width: 75%;
+    margin: auto;
+    line-height: 1.5em;
+    font-size: 1.5em;
+}
+
+
+/*phone*/
+
+@media (orientation: portrait) 
+   { #content
+     {width:100%;
+    line-height: 2em;
+    font-size: 1.5 em;}
+}
+
+#nav-bar {
+    display: flex;
+    font-size: 0.75em;
+    flex-direction:row ;
+    font-family:'Trebuchet MS';
+}
+
+.nav-button {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(103, 107, 110);
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.nav-button {
+    font-family: 'Trebuchet' serif;
+    color: rgb(242, 238, 238);
+    text-decoration:solid;
+    font-weight: bold;
+}
+
+.highlight
+{
+  color:rgb(129, 124, 124);
+}
+
+ 
