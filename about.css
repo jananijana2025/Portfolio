@@ -11,7 +11,7 @@ body {
     color:#353773;
     font-family: Impact, sans-serif;
     text-decoration: solid;
-    border:2px
+    border:2px;
 
   }
 
@@ -19,11 +19,13 @@ body {
     margin-top: 40px;
     font-size: 1em;
     text-indent: 1pc;
-    font-family: 'Trebuchet MS', sans-serif
+    font-family:'Arial Narrow', Arial, sans-serif
   }
 
   h3 {
-    font-size: 2em;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+
   }
 
 .flex-container {
@@ -63,4 +65,9 @@ body {
     color: rgb(242, 238, 238);
     text-decoration:solid;
     font-weight: bold;
+}
+
+.highlight
+{
+  color:rgb(129, 124, 124);
 }
