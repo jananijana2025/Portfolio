@@ -1,6 +1,7 @@
 body {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #e0e0e4;
   }
   
   h1 {
@@ -15,41 +16,51 @@ body {
   }
 
   h2 {
-    padding-left: 20%;
-    padding-right: 20%;
-    font-size: 2em;
+    margin-top: 40px;
+    font-size: 1em;
     text-indent: 1pc;
     font-family: 'Trebuchet MS', sans-serif
   }
-   
-  .image-container {
+
+  h3 {
+    font-size: 2em;
+  }
+
+.flex-container {
     display: flex;
-    flex-direction: row;
-  }
-  
-  img {
-    margin: auto;
-    display: block;
-  }
-
-  .gallery{
-    border: 1px solid #353773;
-    margin: 5px;
-    width: 200px;
-}
-.gallery .description{
-    padding: 10px;
-    text-align: center;
-}
-.gallery:hover{
-    border: 1px solid hsl(0, 0%, 20%);
-}
-.gallery img{
-    width: 100%;
-    height: auto;
+    gap: 20px;
 }
 
-.description{
-font-family: 'Times New Roman', Times, serif;
-font-size: 1em;
+.column {
+    width: 50%;
+    /* Each column takes up 50% of the container width */
+}
+
+@media (orientation: portrait) 
+   { #content
+     {width:100%;
+    line-height: 2em;
+    font-size: 1.5 em;}
+}
+
+#nav-bar {
+    display: flex;
+    font-size: 0.75em;
+    flex-direction:row ;
+    font-family:'Trebuchet MS';
+}
+
+.nav-button {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(216, 218, 221);
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.nav-button {
+    font-family: 'Trebuchet' serif;
+    color: rgb(242, 238, 238);
+    text-decoration:solid;
+    font-weight: bold;
 }

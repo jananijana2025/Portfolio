@@ -1,3 +1,9 @@
+body {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #e0e0e4;
+  }
+
 .flex-container {
     display: flex;
     gap: 20px;
@@ -6,4 +12,32 @@
 .column {
     width: 50%;
     /* Each column takes up 50% of the container width */
+}
+@media (orientation: portrait) 
+   { #content
+     {width:100%;
+    line-height: 2em;
+    font-size: 1.5 em;}
+}
+
+#nav-bar {
+    display: flex;
+    font-size: 0.75em;
+    flex-direction:row ;
+    font-family:'Trebuchet MS';
+}
+
+.nav-button {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(216, 218, 221);
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.nav-button {
+    font-family: 'Trebuchet' serif;
+    color: rgb(242, 238, 238);
+    text-decoration:solid;
+    font-weight: bold;
 }
