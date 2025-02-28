@@ -3,16 +3,6 @@ body {
     padding-right: 5%;
     background-color: #e0e0e4;
   }
-
-.flex-container {
-    display: flex;
-    gap: 20px;
-}
-
-.column {
-    width: 50%;
-    /* Each column takes up 50% of the container width */
-}
 @media (orientation: portrait) 
    { #content
      {width:100%;
@@ -40,4 +30,14 @@ body {
     color: rgb(242, 238, 238);
     text-decoration:solid;
     font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    width: 50%;
+    /* Each column takes up 50% of the container width */
 }
