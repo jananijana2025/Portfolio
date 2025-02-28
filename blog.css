@@ -1,0 +1,9 @@
+.flex-container {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    width: 50%;
+    /* Each column takes up 50% of the container width */
+}
