@@ -20,7 +20,7 @@ body {
   }
 
 /* Profile image*/
-.image-container {
+.img-container {
     width:auto;
 }
 
@@ -144,3 +144,4 @@ body {
   bottom: 0;
   margin-top: 10%;
 }
+  /*code health and open div tags were rectified with the help of Co-pilot*/
