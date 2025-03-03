@@ -46,7 +46,9 @@ body {
 
 .flex-container {
     display: flex;
+    flex-direction: row;
     gap: 40px;
+    overflow-x: auto;
 }
 
 .column {
@@ -76,7 +78,7 @@ body {
 
 /*Responsive design: orientation*/
 #content {
-    width: 75%;
+    width: 50%;
     margin: auto;
     line-height: 1.5em;
     font-size: 1.5em;
