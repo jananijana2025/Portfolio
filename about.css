@@ -1,11 +1,19 @@
+/* Header Style */
+header {
+  background: rgb(221, 218, 218);
+  color: #fff;
+  padding: 1rem;
+  text-align: center;}
+
 body {
     background-color: #e0e0e4;
   }
-  
+
+/*Page Name*/
   h1 {
     padding-left: 20%;
     padding-right: 20%;
-    font-size: 4.5em;
+    font-size: 5em;
     color:#353773;
     font-family: Impact, sans-serif;
     text-decoration: solid;
@@ -13,19 +21,17 @@ body {
 
   }
 
+/*Full About Me*/
   h2 {
-    margin-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
     font-size: 1em;
-    text-indent: 1pc;
-    font-family:'Arial Narrow', Arial, sans-serif
+    color: #353773;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
   }
 
-  h3 {
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-
-  }
-
+/*column stylling*/  
 .flex-container {
     display: flex;
     gap: 20px;
@@ -36,7 +42,7 @@ body {
     /* Each column takes up 50% of the container width */
 }
 
-/*desktop*/
+/*Desktop-orientation*/
 #content {
   width: 75%;
   margin: auto;
@@ -45,7 +51,7 @@ body {
 }
 
 
-/*phone*/
+/*Phone-orientation*/
 
 @media (orientation: portrait) 
  { #content
@@ -54,10 +60,12 @@ body {
   font-size: 1.5 em;}
 }
 
+/*Nav bar*/
+
 #nav-bar {
     display: flex;
     position: center;
-    font-size: 0.75em;
+    font-size: 1em;
     flex-direction:row ;
     font-family:'Trebuchet MS';
 }
@@ -65,36 +73,16 @@ body {
 .nav-button {
     padding-left: 5%;
     padding-right: 5%;
-    background-color: rgb(216, 218, 221);
+    background-color: rgb(221, 218, 218);
     border-radius: 20px;
     margin: 20px;
-}
-
-.nav-button {
     font-family: 'Trebuchet' serif;
     color: rgb(242, 238, 238);
     text-decoration:solid;
     font-weight: bold;
 }
 
-.highlight
-{
-  color:rgb(129, 124, 124);
-}
-
- /* Style the footer */
- footer {
-  background: rgb(221, 218, 218);
-  color: #fff;
-  padding: 0.5em;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-
-
-  /* Social icons styling created with help from co-pilot */
+/* Social icons styling created with help from co-pilot */
   .social-icons {
     margin: 1rem 0;
   }
@@ -108,7 +96,8 @@ body {
     width: 30px;
     height: 30px;
   }
-   /* Style the footer */
+
+/* Footer style */
  footer {
     background: rgb(221, 218, 218);
     color: #0b0a0a;
@@ -116,5 +105,4 @@ body {
     text-align: center;
     position: bottom;
     width: 100%;
-    bottom: 0;
   }
