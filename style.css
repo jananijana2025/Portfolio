@@ -25,8 +25,8 @@ body {
 }
 
 .image {
-   padding-left: 40%;
-   padding-right: 30%;
+   padding-left: 10%;
+   padding-right: 10%;
    margin-top: 20%;
    margin-bottom: 20%;
    display: block;
@@ -46,11 +46,11 @@ body {
 
 .flex-container {
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 .column {
-    width: 70%;
+    width:60%;
 }
 
 /*Quick intro*/
@@ -110,6 +110,49 @@ body {
     text-decoration:solid;
     font-weight: bold;
 }
+
+/*gallery Style*/
+
+.horizontal-gallery {
+    display: flex;
+    overflow-x: auto; /*Adds horizontal scrolling if the content overflows */
+  }
+
+.gallery-item {
+    flex: 0 0 auto; /* Prevents the items from shrinking */
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    text-align: center;
+    position: relative;
+    width: 200px; /* Fixed width */
+    height: 150px; /* Fixed height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    transition: transform 0.3s;
+    object-fit: cover; /* Ensures the image covers the container, new learning through Co-pilot */
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    position: absolute; /* Use absolute positioning for caption */
+    width: 100%;
+    bottom: 0; }
 
 /*Sub-heading highlight for key words*/
 
