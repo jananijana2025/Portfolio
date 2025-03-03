@@ -1,9 +1,26 @@
+/* Style the header */
+header {
+  background: rgb(202, 199, 199);;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;}
+
+  /* Style the footer */
+footer {
+  color: #fff;
+  padding: 0.5em;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
 body {
     padding-left: 10%;
     padding-right: 10%;
       background-color: #e0e0e4;
     }
-  
+
   h1 {
     padding-left: 20%;
     padding-right: 20%;
@@ -32,16 +49,12 @@ body {
   }
 
   p {
-    position:static; bottom: ;
+    position:static, bottom;
     text-decoration: underline; 
-    color:#353773;
-    margin: auto;
-    font-size: 1.0em;
-    color: rgb(129, 124, 124);
-  }
+    color:#353773;}
   
   h3{
-    position:static; bottom: ;
+    position:static, bottom;
     text-indent: 1pc;
     margin: auto;
     flex-direction:row;
@@ -93,4 +106,19 @@ body {
 .highlight
 {
   color:rgb(129, 124, 124);
+}
+
+/* Social icons styling */
+.social-icons {
+  margin: 1rem 0;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
 }
