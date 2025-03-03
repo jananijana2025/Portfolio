@@ -1,6 +1,4 @@
 body {
-    padding-left: 5%;
-    padding-right: 5%;
     background-color: #e0e0e4;
   }
   
@@ -58,6 +56,7 @@ body {
 
 #nav-bar {
     display: flex;
+    position: center;
     font-size: 0.75em;
     flex-direction:row ;
     font-family:'Trebuchet MS';
@@ -82,3 +81,40 @@ body {
 {
   color:rgb(129, 124, 124);
 }
+
+ /* Style the footer */
+ footer {
+  background: rgb(221, 218, 218);
+  color: #fff;
+  padding: 0.5em;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+
+  /* Social icons styling created with help from co-pilot */
+  .social-icons {
+    margin: 1rem 0;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+   /* Style the footer */
+ footer {
+    background: rgb(221, 218, 218);
+    color: #0b0a0a;
+    padding: 0.5em;
+    text-align: center;
+    position: bottom;
+    width: 100%;
+    bottom: 0;
+  }
