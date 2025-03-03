@@ -6,6 +6,8 @@ header {
   
 body {
       background-color: #e0e0e4;
+      padding-left: 10%;
+      padding-right: 10%;
     }
 
 /*Page title Name*/
@@ -98,8 +100,8 @@ body {
 }
 
 .nav-button {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: rgb(221, 218, 218);
     border-radius: 20px;
     margin: 20px;
