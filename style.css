@@ -4,41 +4,59 @@ header {
   color: #fff;
   padding: 1rem;
   text-align: center;}
-
-
+  
 body {
       background-color: #e0e0e4;
     }
 
+    /* Name*/
   h1 {
     padding-left: 20%;
     padding-right: 20%;
-    font-size: 4.5em;
+    font-size: 5em;
     color:#353773;
     font-family: Impact, sans-serif;
-    
   }
 
-  .image-container {
-    width: 100%;
-  }
-  
-.image{
-    padding-left: 10%;
-    padding-right: 10%;
-    margin: 0;
-    display: block;
-    margin-top: 20px;
-    border: 1px solid #353773;
+/* Profile image*/
+.image-container {
+    width:auto;
+}
+
+.image {
+   padding-left: 40%;
+   padding-right: 30%;
+   margin-top: auto;
+   margin-bottom: auto;
+   display: block;
   }
 
+/* Sub-heading*/
   h2 {
     padding-left: 10%;
     padding-right: 10%;
-    font-size: 1.5em;
+    font-size: 1.75em;
     color: #353773;
     font-family: 'Trebuchet MS', sans-serif;
     font-weight: lighter;
+  }
+  
+.flex-container {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    width: 70%;
+}
+
+
+  h3 {
+    font-size: 1.25em;
+    color: #353773;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+
   }
 
   p {
