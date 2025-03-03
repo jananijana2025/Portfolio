@@ -62,7 +62,7 @@ body {
     text-indent: 1pc;
     flex-direction:row;
     color: rgb(129, 124, 124);
-    margin-top: 40%;
+    margin-top: 10%;
   }
 
 /*copyright line included*/
@@ -111,11 +111,13 @@ body {
     font-weight: bold;
 }
 
-/*gallery Style*/
+/*Gallery Style, the original code was submitted to co-pilot and improved*/
 
 .horizontal-gallery {
-    display: flex;
+    display: inline-flex;
+    flex-direction: row;
     overflow-x: auto; /*Adds horizontal scrolling if the content overflows */
+    margin: 5px;
   }
 
 .gallery-item {
@@ -145,6 +147,7 @@ body {
     transform: scale(1.1);
 }
 
+/*Caption style*/
 .caption {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
