@@ -12,9 +12,9 @@ body {
   }
 
   h1 {
-    padding-left: 20%;
-    padding-right: 20%;
-    font-size: 5em;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 4em;
     color:#353773;
     font-family: Impact, sans-serif;
     text-decoration: solid;
@@ -22,8 +22,6 @@ body {
   }  
 
   h2 {
-    padding-left: 10%;
-    padding-right: 10%;
     font-size: 1.75em;
     color: #353773;
     font-family: 'Trebuchet MS', sans-serif;
@@ -32,9 +30,9 @@ body {
 
 /* Desktop-orientation*/
 #content {
-    width: 50%;
+    width: 100%;
     margin: auto;
-    line-height: 1.5em;
+    line-height: 2em;
     font-size: 1.5em;
 }
 
@@ -42,7 +40,7 @@ body {
 
 @media (orientation: portrait) 
    { #content
-     {width:100%;
+     {width:50%;
     line-height: 2em;
     font-size: 1.5 em;}
 }
