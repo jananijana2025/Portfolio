@@ -44,9 +44,14 @@ body {
   font-size: 1.17em;
   margin-block-start: 1em;
   margin-block-end: 1em;
+  margin-top: 15%;
   font-weight: bold;
   text-decoration: underline;
   unicode-bidi: isolate;}
+
+  p{
+    margin-bottom: 2%;
+  }
 
 /* Desktop-orientation*/
 #content {
