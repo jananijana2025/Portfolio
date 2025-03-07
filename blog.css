@@ -30,7 +30,7 @@ body {
 
 /* Desktop-orientation*/
 #content {
-    width: 50%;
+    width: 100%;
     margin: auto;
     line-height: 2em;
     font-size: 1.5em;
@@ -40,7 +40,7 @@ body {
 
 @media (orientation: portrait) 
    { #content
-     {width:100%;
+     {width:50%;
     line-height: 2em;
     font-size: 1.5 em;}
 }
