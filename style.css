@@ -19,18 +19,18 @@ body {
 /* Profile image*/
 .img-container {
     width:auto;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .image {
-   padding-left: 10%;
-   padding-right: 10%;
-   margin-top: 20%;
+   margin-top: 5%;
    display: block;
   }
 
 /* Sub-heading*/
   h2 {
-    padding-left: 10%;
+    padding-left: 5%;
     padding-right: 10%;
     font-size: 1.5em;
     color: #353773;
@@ -47,20 +47,17 @@ body {
     overflow-x: auto;
 }
 
-.column {
-    width:60%;
-}
-
 /*Quick intro*/
   h3 {
     font-size: 1.25em;
+    padding-left: 5%;
     padding-right: 10%;
     font-family: 'Trebuchet MS', sans-serif;
     font-weight: lighter;
     text-indent: 1pc;
     flex-direction:row;
     color: rgb(129, 124, 124);
-    margin-top: 40%;
+    margin-top: 5%;
   }
 
 /*copyright line included*/
