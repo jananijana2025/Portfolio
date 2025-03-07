@@ -44,7 +44,6 @@ body {
 /* Nav-bar styling*/
 #nav-bar {
     display: flex;
-    position:center;
     font-size: 1em;
     flex-direction:row ;
     font-family:'Trebuchet MS';
