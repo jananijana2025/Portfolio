@@ -8,8 +8,8 @@ body {
 
 /*Page title Name*/
   h1 {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
     font-size: 4em;
     color:#353773;
     font-family: Impact, sans-serif;
@@ -25,7 +25,6 @@ body {
    padding-left: 10%;
    padding-right: 10%;
    margin-top: 20%;
-   margin-bottom: 20%;
    display: block;
   }
 
