@@ -48,7 +48,7 @@ body {
     padding-right: 10%;
     font-family: 'Trebuchet MS', sans-serif;
     font-weight: lighter;
-    color: rgb(129, 124, 124);
+    color:  #353773;
     margin-top: 5%;
   }
 
@@ -111,7 +111,7 @@ body {
     margin: 5px;
     text-align: center;
     position: relative;
-    width: 100px; /* Fixed width */
+    width: 200px; /* Fixed width */
     height: 150px; /* Fixed height */
     display: flex;
     justify-content: center;
