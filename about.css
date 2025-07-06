@@ -33,6 +33,7 @@ body {
     font-weight: lighter;
   }
 
+
 /*Desktop-orientation*/
 #content {
   width: 100%;
@@ -51,8 +52,7 @@ body {
 
 #nav-bar {
     display: flex;
-    position: center;
-    font-size: 1em;
+    font-size: 2em;
     flex-direction:row ;
     font-family:'Trebuchet MS';
 }
