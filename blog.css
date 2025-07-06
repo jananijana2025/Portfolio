@@ -68,18 +68,17 @@ body {
 
 /* Nav-bar styling*/
 #nav-bar {
-    display: flex;
     font-size: 2em;
-    flex-direction:row ;
     font-family:'Trebuchet MS';
 }
 
 .nav-button {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     background-color: rgb(221, 218, 218);
     border-radius: 20px;
     margin: 20px;
+    width: 50px;
     font-family: 'Trebuchet' serif;
     color: rgb(242, 238, 238);
     text-decoration:solid;
