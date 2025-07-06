@@ -80,6 +80,36 @@ body {
     font-weight: bold;
 }
 
+/*Work sample icons*/
+.icon-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .icon-box {
+      background: white;
+      border-radius: 5px;
+      padding: 10px;
+      width: 75px;
+      transition: transform 0.3s ease;
+    }
+
+    .icon-box:hover {
+      transform: scale(1.1);
+    }
+
+    .icon-box i {
+      font-size: 60px;
+    }
+
+    .label {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #555;
+    }
+
 /* Social icons styling created with help from co-pilot */
   .social-icons {
     margin: 1rem 0;
@@ -91,8 +121,8 @@ body {
   }
   
   .social-icons img {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
   }
 
 /* Footer style */
