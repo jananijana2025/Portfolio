@@ -30,6 +30,8 @@ body {
 
 /* Sub-heading*/
   h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-left: 5%;
     padding-right: 10%;
     font-size: 1.5em;
@@ -38,12 +40,39 @@ body {
     font-weight: lighter;
   }
   
+/*Work sample icons*/
+.icon-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
 
+    .icon-box {
+      background: white;
+      border-radius: 5px;
+      padding: 10px;
+      width: 75px;
+      transition: transform 0.3s ease;
+    }
 
+    .icon-box:hover {
+      transform: scale(1.1);
+    }
+
+    .icon-box i {
+      font-size: 60px;
+    }
+
+    .label {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #555;
+    }
 
 /*Quick intro*/
   h3 {
-    font-size: 1.5em;
+    font-size: 1 em;
     padding-left: 5%;
     padding-right: 10%;
     font-family: 'Trebuchet MS', sans-serif;
