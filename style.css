@@ -70,7 +70,6 @@ body {
   font-size: 1.15em;
   line-height: 1.7;
   max-width: 700px;
-  margin: 1em auto;
 }
 
 .tagline {
@@ -125,18 +124,11 @@ body {
 .caption {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
-    padding: 5px;
     font-size: 14px;
     position: absolute; /* Use absolute positioning for caption */
     width: 100%;
     bottom: 0; }
 
-/*Sub-heading highlight for key words*/
-
-.highlight
-{
-  color:rgb(129, 124, 124);
-}
 
 /* Social icons styling created with help from co-pilot */
 .social-icons {
