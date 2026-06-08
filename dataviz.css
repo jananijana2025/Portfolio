@@ -1,5 +1,26 @@
 /* Header Style */
 title{font-size: 4.5em;}
+
+/* Nav-bar styling*/
+#nav-bar {
+    font-size: 2em;
+    font-family:'Trebuchet MS';
+}
+
+.nav-button {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(221, 218, 218);
+    border-radius: 20px;
+    margin: 20px;
+    width: 50px;
+    font-family: 'Trebuchet' serif;
+    color: rgb(242, 238, 238);
+    text-decoration:solid;
+    font-weight: bold;
+}
+
+
 header {
   background: rgb(221, 218, 218);
   color: #fff;
@@ -54,25 +75,6 @@ body {
 @media (orientation: portrait) 
    { #content
      {width:100%;}
-}
-
-/* Nav-bar styling*/
-#nav-bar {
-    font-size: 2em;
-    font-family:'Trebuchet MS';
-}
-
-.nav-button {
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: rgb(221, 218, 218);
-    border-radius: 20px;
-    margin: 20px;
-    width: 50px;
-    font-family: 'Trebuchet' serif;
-    color: rgb(242, 238, 238);
-    text-decoration:solid;
-    font-weight: bold;
 }
 
 /* Column division*/
