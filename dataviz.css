@@ -40,12 +40,10 @@ body {
     unicode-bidi: isolate;
   }
 
-  p 
-    {padding-left: 10%;
-    padding-right: 10%;
-    position:static, bottom; 
+  p { position:static, bottom; 
     color:#353773;
     margin-bottom: 2%;}
+   
 
 /* Desktop-orientation*/
 #content {
