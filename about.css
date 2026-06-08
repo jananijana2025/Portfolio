@@ -130,7 +130,7 @@ body {
 }
 
 .gallery-item:hover img {
-    transform: scale(2.5);
+    transform: scale(2);
 }
 
 /*Caption style*/
