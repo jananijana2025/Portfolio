@@ -2,14 +2,14 @@
   
 body {
       background-color: #ececf1;
-      padding-left: 10%;
-      padding-right: 10%;
+      padding-left:10%;
+      padding-right:10%;
     }
 
 /*Page title Name*/
   h1 {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left:5%;
+    padding-right:5%;
     font-size: 4em;
     color:#353773;
     font-family: Impact, sans-serif;
@@ -68,13 +68,13 @@ body {
 /*Quick intro*/
 
 .bio-intro {
-  font-size: 1.15rem;
+  font-size: 1.15em;
   line-height: 1.7;
   max-width: 700px;
-  margin: 1rem auto;
+  margin: 1em auto;
 }
   h3 {
-    font-size: 1 em;
+    font-size: 1em;
     padding-left: 5%;
     padding-right: 10%;
     font-family: 'Trebuchet MS', sans-serif;
@@ -87,8 +87,7 @@ body {
   p {
     padding-left: 10%;
     padding-right: 10%;
-    position:static, bottom;
-    text-decoration: underline; 
+    position:static, bottom; 
     color:#353773;}
 
 
