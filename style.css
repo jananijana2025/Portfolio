@@ -120,16 +120,6 @@ body {
     font-weight: bold;
 }
 
-/*Caption style*/
-.caption {
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
-    font-size: 14px;
-    position: absolute; /* Use absolute positioning for caption */
-    width: 100%;
-    bottom: 0; }
-
-
 /* Social icons styling created with help from co-pilot */
 .social-icons {
   margin: 1rem 0;

@@ -129,8 +129,18 @@ body {
 }
 
 .gallery-item:hover img {
-    transform: scale(1.1);
+    transform: scale(2.5);
 }
+
+/*Caption style*/
+.caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 14px;
+    position: absolute; /* Use absolute positioning for caption */
+    width: 100%;
+    bottom: 0; }
+
 
 /* Footer style */
  footer {
